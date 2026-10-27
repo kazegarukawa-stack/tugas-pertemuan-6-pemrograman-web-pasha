@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program Percabangan dan Perulangan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Percabangan dan Perulangan</h1>
+
+    <div class="card">
+      <h2>1. Cek Nilai</h2>
+      <p>Masukkan nilai (0 - 100):</p>
+      <div class="row">
+        <input type="number" id="nilai" placeholder="Contoh: 85">
+        <button onclick="cekNilai()">Cek</button>
+      </div>
+      <div id="hasilNilai" class="hasil"></div>
+    </div>
+
+    <div class="card">
+      <h2>2. Tabel Perkalian</h2>
+      <p>Masukkan angka:</p>
+      <div class="row">
+        <input type="number" id="angka" placeholder="Contoh: 7">
+        <button onclick="tabelPerkalian()">Tampilkan</button>
+      </div>
+      <div id="hasilKali" class="hasil"></div>
+    </div>
+
+    <div class="card">
+      <h2>3. Jumlah 1 sampai N</h2>
+      <p>Masukkan angka N:</p>
+      <div class="row">
+        <input type="number" id="batas" placeholder="Contoh: 10">
+        <button onclick="jumlahAngka()">Hitung</button>
+      </div>
+      <div id="hasilJumlah" class="hasil"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
